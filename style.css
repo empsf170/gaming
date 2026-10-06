@@ -577,6 +577,13 @@ h4 {
 
 /* Responsive Media Queries */
 @media (max-width: 992px) {
+    .about-story {
+        grid-template-columns: 1fr;
+    }
+    .about-story img {
+        width: 100%;
+    }
+
     .hero-title {
         font-size: 3.5rem;
     }
